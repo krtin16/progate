@@ -1,0 +1,110 @@
+*{
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+
+}
+
+  .navbar-light{
+  background-color: #FF0000;
+  margin-bottom: 50px;
+  }
+
+form{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  float: center;
+}
+
+.notice{
+  text-align:center;
+}
+.nav-link{
+  align-content: right;
+}
+
+  h1{
+    font-size: 60px;
+    height: 70px;
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+  }
+
+    #a, #cc, #c, #ccc{
+    box-sizing: border-box;
+    border:5px solid black;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+  }
+
+h2{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  height: 30px;
+}
+
+
+  #a{
+    float:center;
+  }
+
+  @media (min-width:990px) {
+      .lessons{
+        position: absolute;
+      }
+
+    .x{
+      display: inline-flex;
+      box-sizing: border-box;
+      position: relative;
+      float: left;
+      width: 32%;
+      height: auto;
+      margin: 10px;
+    }
+
+  }
+
+img{
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+.timetable{
+  margin-top: 800px;
+  margin-bottom: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  height: auto;
+}
+
+.final{
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.center{
+  text-align: center;
+}
+
+.tt{
+  height: 40%;
+}
+
+@media(max-width: 786px){
+  .timetable{
+    margin-top: 0.1%;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    height: auto;
+  }
+}
